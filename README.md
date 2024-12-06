@@ -8,3 +8,7 @@ Command:
 * python -m pyls -l -r -t (long listing and reverse and sorted by time)
 * python -m pyls -R (Recursive)
 * python -m pyls --help (Help)
+
+Including test : test_pyls.py has been added to test the functionality. To run the test_pyls.py we need to first install pytest module using "pip install pytest"
+Command:
+* pytest test_pyls.py
